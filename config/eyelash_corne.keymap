@@ -152,7 +152,7 @@
         system {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &kp LG(Z)                    &trans          &kp LG(Y)  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp LC(LG(Q))
-&trans  &trans  &trans  &trans  &trans  &kp LG(C)            &trans  &trans  &trans  &kp LG(V)  &trans                &trans                &trans             &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans               &trans  &trans  &trans  &trans     &trans                &trans                &trans             &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans     &trans            &trans          &trans     &trans                &trans                &trans             &trans           &trans
                         &trans  &trans  &trans                                       &trans     &trans                &trans
             >;
