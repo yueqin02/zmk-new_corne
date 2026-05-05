@@ -115,14 +115,6 @@
         };
     };
 
-    macros {
-        undo: undo {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <>;
-            label = "UNDO";
-        };
-    };
 
     keymap {
         compatible = "zmk,keymap";
