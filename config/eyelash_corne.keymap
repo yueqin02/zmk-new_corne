@@ -4,6 +4,8 @@
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
@@ -115,7 +117,6 @@
         };
     };
 
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -143,10 +144,10 @@
 
         system {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &kp LG(Z)                    &trans          &kp LG(Y)  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp LC(LG(Q))
-&trans  &trans  &trans  &trans  &trans  &trans               &trans  &trans  &trans  &trans     &trans                &trans                &trans             &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans     &trans            &trans          &trans     &trans                &trans                &trans             &trans           &trans
-                        &trans  &trans  &trans                                       &trans     &trans                &trans
+&trans  &trans  &trans  &trans  &trans          &kp LG(Z)                            &trans          &kp LG(Y)  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp LC(LG(Q))
+&trans  &trans  &trans  &trans  &trans          &ext_power EP_TOG            &trans  &trans  &trans  &trans     &trans                &trans                &trans             &trans           &trans
+&trans  &trans  &trans  &trans  &bt BT_CLR_ALL  &bt BT_NXT         &trans            &trans          &trans     &trans                &trans                &trans             &trans           &trans
+                        &trans  &trans          &trans                                               &trans     &trans                &trans
             >;
         };
 
