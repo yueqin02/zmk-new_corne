@@ -107,8 +107,8 @@ layers:
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Y
-  - $$mdi:brightness-7$$
-  - $$mdi:brightness-5$$
+  - F14
+  - F15
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - Ctl+Gui+Q
