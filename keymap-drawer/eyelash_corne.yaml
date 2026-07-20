@@ -122,8 +122,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Gui+KP MINUS, h: toggle}
-  - {t: Sft+Gui+KP PLUS, h: toggle}
+  - {t: Gui+-, s: Gui+_}
+  - {t: Gui+=, s: Gui++}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
