@@ -144,8 +144,8 @@
 
         system {
             bindings = <
-&trans  &trans  &trans  &trans  &trans          &kp LG(Z)                           &trans          &kp LG(Y)  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LC(LG(Q))
-&trans  &trans  &trans  &trans  &trans          &ext_power EP_ON            &trans  &trans  &trans  &trans     &trans                &trans                &trans             &trans           &trans
+&trans  &trans  &trans  &trans  &trans          &kp LG(Z)                           &trans          &kp LG(Y)  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp LC(LG(Q))
+&trans  &trans  &trans  &trans  &trans          &ext_power EP_ON            &trans  &trans  &trans  &trans     &kt LG(MINUS)         &kt LS(LG(EQUAL))     &trans             &trans           &trans
 &trans  &trans  &trans  &trans  &bt BT_CLR_ALL  &bt BT_NXT        &trans            &trans          &trans     &trans                &trans                &trans             &trans           &trans
                         &trans  &trans          &trans                                              &trans     &trans                &trans
             >;
@@ -154,7 +154,7 @@
         nav {
             bindings = <
 &trans  &mkp LCLK       &mmv MOVE_UP    &mkp MB2         &trans          &trans                             &trans          &trans    &trans    &trans        &trans     &trans  &trans
-&trans  &mmv MOVE_DOWN  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_UP    &trans                     &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_UP    &trans                     &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
 &trans  &mkp MB4        &mkp MB5        &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans            &trans          &trans    &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
                                         &trans           &trans          &kp ENTER                                          &trans    &trans    &trans
             >;
