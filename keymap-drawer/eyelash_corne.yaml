@@ -109,8 +109,8 @@ layers:
   - Gui+Y
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
-  - VOLUME DOWN
-  - VOLUME UP
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - Ctl+Gui+Q
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -122,8 +122,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Gui+KP MINUS, h: toggle}
-  - {t: Sft+Gui+KP PLUS, h: toggle}
+  - {t: Gui+-, s: Gui+_}
+  - {t: Gui+=, s: Gui++}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
